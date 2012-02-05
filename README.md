@@ -9,9 +9,16 @@ Select applicable elements with jQuery and pass an amount:
 
 `$("#content p").minLineHeight(1.3)`
 
-The minimum line height can be supplied in the following ways:
+The minimum line height can be supplied in the following ways -
 
-`$("#content p").minLineHeight(1.3)` or `$("#content p").minLineHeight("1.3rem")` or `$("#content p").minLineHeight("13px")`
+A float:
+`$("#content p").minLineHeight(1.3)`  
+
+As ems:
+`$("#content p").minLineHeight("1.3rem")` 
+
+As px:
+`$("#content p").minLineHeight("13px")`
 
 If the amount is passed as a float or any units other than px, the script will default to ems.
 
